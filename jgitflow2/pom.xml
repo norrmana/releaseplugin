@@ -3,7 +3,7 @@
 
 	<groupId>org.norrmana.plugintest2</groupId>
 	<artifactId>jgitflow2</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -18,7 +18,10 @@
 				<artifactId>jgitflow-maven-plugin</artifactId>
 				<version>1.0-m5.1</version>
 				<configuration>
-					<!-- see goals wiki page for configuration options -->
+				<flowInitContext>
+				
+					<hotfixBranchPrefix>bugfix-</hotfixBranchPrefix>
+					</flowInitContext>
 				</configuration>
 			</plugin>
 		</plugins>
