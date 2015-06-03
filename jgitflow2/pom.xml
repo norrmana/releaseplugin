@@ -33,7 +33,7 @@
 		</plugins>
 	</build>
 
-	<!-- jgitflow is superfun to use -->
+	<!-- jgitflow is awesome -->
 	<distributionManagement>
 		<repository>
 			<id>maven-repository</id>
