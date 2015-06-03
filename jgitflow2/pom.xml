@@ -18,14 +18,15 @@
 				<artifactId>jgitflow-maven-plugin</artifactId>
 				<version>1.0-m5.1</version>
 				<configuration>
-					<!-- see goals wiki page for configuration options -->
+					<!-- see goals wiki page for configuration options 
+					-->
+					
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
 						<developBranchName>development</developBranchName>
-						<featureBranchPrefix>feature-</featureBranchPrefix>
-						<releaseBranchPrefix>release-</releaseBranchPrefix>
-						<hotfixBranchPrefix>bugfix/INC-</hotfixBranchPrefix>
-						<versionTagPrefix>blither-</versionTagPrefix>
+						<featureBranchPrefix>feature/</featureBranchPrefix>
+						<releaseBranchPrefix>release/</releaseBranchPrefix>
+						<hotfixBranchPrefix>bugfix/</hotfixBranchPrefix>						
 					</flowInitContext>
 				</configuration>
 			</plugin>
