@@ -12,9 +12,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 		<scm>
-			<connection>scm:git:ssh:git@github.com:norrmana/releaseplugin.git</connection>
-			<url>scm:git:ssh:git@github.com:norrmana/releaseplugin.git</url>
-			<developerConnection>scm:git:ssh:git@github.com:norrmana/releaseplugin.git</developerConnection>
+			<connection>scm:ssh:git@github.com:norrmana/releaseplugin.git</connection>
+			<url>scm:ssh:git@github.com:norrmana/releaseplugin.git</url>
+			<developerConnection>scm:ssh:git@github.com:norrmana/releaseplugin.git</developerConnection>
 		</scm>
 	<build>
 		<plugins>
