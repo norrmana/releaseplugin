@@ -3,7 +3,7 @@
 
 	<groupId>org.norrmana.plugintest2</groupId>
 	<artifactId>jgitflow2</artifactId>
-	<version>0.0.6</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -12,10 +12,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 		<scm>
-		<connection>scm:git:git@github.com:norrmana/releaseplugin.git</connection>
-		<url>scm:git:git@github.com:norrmana/releaseplugin.git</url>
-		<developerConnection>scm:git:git@github.com:norrmana/releaseplugin.git</developerConnection>
-	</scm>
+			<connection>scm:git:ssh:git@github.com:norrmana/releaseplugin.git</connection>
+			<url>scm:git:ssh:git@github.com:norrmana/releaseplugin.git</url>
+			<developerConnection>scm:git:ssh:git@github.com:norrmana/releaseplugin.git</developerConnection>
+		</scm>
 	<build>
 		<plugins>
 			<plugin>
