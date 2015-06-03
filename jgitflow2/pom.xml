@@ -24,7 +24,7 @@
 						<developBranchName>development</developBranchName>
 						<featureBranchPrefix>feature-</featureBranchPrefix>
 						<releaseBranchPrefix>release-</releaseBranchPrefix>
-						<hotfixBranchPrefix>bugfix-</hotfixBranchPrefix>
+						<hotfixBranchPrefix>bugfix/INC-</hotfixBranchPrefix>
 						<versionTagPrefix>blither-</versionTagPrefix>
 					</flowInitContext>
 				</configuration>
