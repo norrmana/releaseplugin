@@ -4,7 +4,7 @@
 
 	<groupId>org.norrmana.plugintest2</groupId>
 	<artifactId>jgitflow2</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -21,7 +21,7 @@
 				<configuration>
 					<!-- see goals wiki page for configuration options -->
 					<flowInitContext>
-						<masterBranchName>foobar</masterBranchName>
+						<masterBranchName>master</masterBranchName>
 						<developBranchName>development</developBranchName>
 						<featureBranchPrefix>feature-</featureBranchPrefix>
 						<releaseBranchPrefix>release-</releaseBranchPrefix>
