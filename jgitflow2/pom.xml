@@ -18,7 +18,6 @@
 				<artifactId>jgitflow-maven-plugin</artifactId>
 				<version>1.0-m5.1</version>
 				<configuration>
-<<<<<<< HEAD
 					<!-- see goals wiki page for configuration options -->
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
@@ -27,11 +26,6 @@
 						<releaseBranchPrefix>release-</releaseBranchPrefix>
 						<hotfixBranchPrefix>bugfix-</hotfixBranchPrefix>
 						<versionTagPrefix>blither-</versionTagPrefix>
-=======
-				<flowInitContext>
-				
-					<hotfixBranchPrefix>bugfix-</hotfixBranchPrefix>
->>>>>>> refs/heads/master
 					</flowInitContext>
 				</configuration>
 			</plugin>
