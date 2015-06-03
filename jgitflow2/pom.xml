@@ -17,8 +17,8 @@
     <url>http://github.com/tleese22/my-app</url>
 </scm> -->
 		<scm>
-			<connection>scm:git:git://github.com/norrmana/releaseplugin.git</connection>
-			<url>scm:git:git://github.com/norrmana/releaseplugin.git</url>
+			<connection>scm:git:git@github.com:norrmana/releaseplugin.git</connection>
+			<url>scm:git:git@github.com:norrmana/releaseplugin.git</url>
 			<developerConnection>scm:git:git://github.com/norrmana/releaseplugin.git</developerConnection>
 		</scm>
 	<build>
