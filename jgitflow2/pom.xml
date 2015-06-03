@@ -21,7 +21,7 @@
 				<configuration>
 					<!-- see goals wiki page for configuration options -->
 					<flowInitContext>
-						<masterBranchName>frankenstein</masterBranchName>
+						<masterBranchName>foobar</masterBranchName>
 						<developBranchName>development</developBranchName>
 						<featureBranchPrefix>feature-</featureBranchPrefix>
 						<releaseBranchPrefix>release-</releaseBranchPrefix>
