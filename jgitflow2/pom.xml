@@ -3,7 +3,7 @@
 
 	<groupId>org.norrmana.plugintest2</groupId>
 	<artifactId>jgitflow2</artifactId>
-	<version>0.0.12-SNAPSHOT</version>
+	<version>0.0.11</version>
 	<packaging>jar</packaging>
 
 	<properties>
