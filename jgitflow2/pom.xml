@@ -1,26 +1,23 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.norrmana.plugintest2</groupId>
 	<artifactId>jgitflow2</artifactId>
 	<version>0.0.10-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<github.maven.repository>file:///home/norrmana/.repo/</github.maven.repository>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	<!-- <scm>
-    <connection>scm:git:git://github.com/tleese22/my-app.git</connection>
-    <developerConnection>scm:git:git@github.com:tleese22/my-app.git</developerConnection>
-    <url>http://github.com/tleese22/my-app</url>
-</scm> -->
-		<scm>
-			<connection>scm:git:git@github.com:norrmana/releaseplugin.git</connection>
-			<url>scm:git:git@github.com:norrmana/releaseplugin.git</url>
-			<developerConnection>scm:git:git://github.com/norrmana/releaseplugin.git</developerConnection>
-		</scm>
+
+	<scm>
+		<connection>scm:git:git@github.com:norrmana/releaseplugin.git</connection>
+		<url>scm:git:git@github.com:norrmana/releaseplugin.git</url>
+		<developerConnection>scm:git:git://github.com/norrmana/releaseplugin.git</developerConnection>
+	</scm>
 	<build>
 		<plugins>
 			<plugin>
