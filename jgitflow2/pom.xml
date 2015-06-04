@@ -3,7 +3,7 @@
 
 	<groupId>org.norrmana.plugintest2</groupId>
 	<artifactId>jgitflow2</artifactId>
-	<version>0.0.11</version>
+	<version>0.0.12</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -17,7 +17,7 @@
 		<url>scm:git:git@github.com:norrmana/releaseplugin.git</url>
 		<developerConnection>scm:git:git://github.com/norrmana/releaseplugin.git</developerConnection>
 	</scm>
-	<!-- TEST change mvu-9993 -->
+	<!-- TEST change mvu-nissemark -->
 	<build>
 		<plugins>
 			<plugin>
