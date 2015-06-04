@@ -17,7 +17,7 @@
 		<url>scm:git:git@github.com:norrmana/releaseplugin.git</url>
 		<developerConnection>scm:git:git://github.com/norrmana/releaseplugin.git</developerConnection>
 	</scm>
-	<!-- TEST chagne mvu9994 -->
+	<!-- TEST change mvu-9993 -->
 	<build>
 		<plugins>
 			<plugin>
